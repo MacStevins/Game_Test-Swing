@@ -89,29 +89,31 @@ public class SettingsDialog extends JDialog {
 					switch (line.split(":")[0]) {
 						
 						case "game.fps": {
-							Settings.fps = Integer.parseInt(line.split(":")[1]);
+							Settings.fps = Integer.parseInt(values);
 							break;
 						}
 						case "key.Up": {
-							Settings.upKey = Integer.parseInt(line.split(":")[1]);
+							Settings.upKey = Integer.parseInt(values);
 							break;
 						}
 						case "key.Left": {
-							Settings.lfKey = Integer.parseInt(line.split(":")[1]);
+							Settings.lfKey = Integer.parseInt(values);
 							break;
 						}
 						case "key.Down": {
-							Settings.dnKey = Integer.parseInt(line.split(":")[1]);
+							Settings.dnKey = Integer.parseInt(values);
 							break;
 						}
 						case "key.Right": {
-							Settings.rtKey = Integer.parseInt(line.split(":")[1]);
+							Settings.rtKey = Integer.parseInt(values);
 							break;
 						}
 					
 					}
 				
 				}
+				
+				reader.close();
 			
 			}
 		
