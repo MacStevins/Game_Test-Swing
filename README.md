@@ -8,4 +8,4 @@ The game controls and framerate can be changed using the second dialog window
 WASD is the default movement controls
 
 ### Framerate
-The default is 60fps, but can be changed from 5 to 240 with a 5 incremental steps, the player can remove the limit by setting it to the lowest 0 value
+The default is 60fps, but can be changed from 5 to 240 on a 5 stepping, the player can remove the limit by setting it to the lowest 0 value
